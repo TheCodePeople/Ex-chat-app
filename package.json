@@ -1,0 +1,18 @@
+{
+  "name": "ex-chat-app",
+  "version": "1.0.0",
+  "description": "This chat app serves as a practical exercise to familiarize oneself with backend development concepts. It focuses on understanding the workings of backend systems, including the creation of routes and endpoints (APIs) using HTTP methods such as GET, POST, PUT, and DELETE. Participants will learn how to handle requests and responses, utilize parameters in requests, and manage data manipulation within a server environment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid4": "^2.0.3"
+  }
+}
